@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Auto fill timesheet FPT Japan</title>
+
+	<script src="jquery.min.js"></script>
+	<script src="timesheet-filler.js"></script>
+	<script src="storage-facade.js"></script>
+	<script src="form-man.js"></script>
+
+	<script src="popup.js"></script>
+	<link rel="stylesheet" href="form-styles.css">
+	<link rel="stylesheet" href="popup-styles.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h3 class="header__title">FJP Auto fill timesheet - © Duc Filan</h3>
+		</div>
+
+		<div class="setting-form">
+			<input type="text" class="setting-form__input-text start-time" placeholder="Start time (hh:mm)">
+			<input type="text" class="setting-form__input-text end-time"   placeholder="End time (hh:mm)">
+			<input type="text" class="setting-form__input-text break-time" placeholder="Break time (hh:mm)">
+
+			<button class="setting-form__button-set">SET TIMES</button><button class="setting-form__button-fill">FILL TIMES</button>
+		</div>
+
+		<p id="idOptionSaveStatus" class="hidden">SAVED!</p>
+	</div>
+</body>
+
+</html>

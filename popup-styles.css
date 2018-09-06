@@ -1,0 +1,58 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrapper {
+  min-width: 360px;
+}
+
+.header {
+  background: #3498db;
+  padding: 8px;
+  color: #fff;
+}
+.header__title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.setting-form__input-text {
+  width: 80%;
+  margin: 10px auto;
+}
+.setting-form__button-set {
+  width: 50%;
+  border-radius: 0;
+}
+.setting-form__button-fill {
+  width: 50%;
+  border-radius: 0;
+}
+
+#idOptionSaveStatus {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 38px;
+  left: 0;
+  background: #7f8c8d;
+  color: #fff;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.95;
+}

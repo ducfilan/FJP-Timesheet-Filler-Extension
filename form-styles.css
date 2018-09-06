@@ -1,0 +1,82 @@
+input[type=text] {
+  background-color: #f1f1f1;
+  border: none;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+}
+
+:focus {
+  outline: none;
+}
+
+button {
+  background-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 30px;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 0 19px 0 4px;
+}
+
+.two {
+  width: 42%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+input[type="radio"] + label{
+  display: block;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="radio"] + label:before{
+  content: "✔";
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  background-color: #3498db;
+  color: #fff;
+  display: none;
+}
+
+input[type="radio"]:checked + label:before{
+  display: block;
+}
+
+input[type="radio"] + label h4{
+  margin: 15px;
+  color: #ccc;
+}
+
+input[type="radio"]:checked + label{
+  border: 1px solid #3498db;
+}
+
+input[type="radio"]:checked + label h4{
+  color: #3498db;
+}
