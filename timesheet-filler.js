@@ -2,7 +2,7 @@ var timesheetFiller = (()=>{
     let _startTime = "09:00";
     let _endTime = "21:00";
     let _breakTime = "01:00";
-    let _workdayFieldsSelector = "tr.ui-widget-content > td:first-child > span:not(.saturday):not(.sunday):not(.holiday)";
+    let _workdayFieldsSelector = "tr.ui-widget-content > td:first-child > span:not(.saturday):not(.sunday):not(.holiday):not(.leaveRequest)";
 
     let _createMapFunction = () => NodeList.prototype.map = HTMLCollection.prototype.map = Array.prototype.map;
 
