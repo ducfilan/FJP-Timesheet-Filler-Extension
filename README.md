@@ -10,7 +10,8 @@ It takes minutes to fill and David-Copy-Paste, so I create this extension to cut
 ## There are some notes when creating this extension:
 
  1. To send message from popup script to content script:
-Refer docs: https://developer.chrome.com/apps/messaging
+ I use Simple one-time requests, 
+ Refer docs: https://developer.chrome.com/apps/messaging
  2. To fill the textboxes created with Angular:
  Because this site is created with Angular Js frontend, so setting the textbox value is not easy like setting the value attribute of the element. We need to dispatch an event:
 ```javascript
